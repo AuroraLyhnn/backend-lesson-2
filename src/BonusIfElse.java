@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class bonus {
+public class BonusIfElse {
 
     public static void evenOddChecker(Scanner sc) {
         System.out.println("Voer een getal in");

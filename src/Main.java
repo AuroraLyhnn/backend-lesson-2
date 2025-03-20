@@ -1,4 +1,3 @@
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Main {
@@ -30,9 +29,13 @@ public class Main {
         input2 = sc.nextInt();
         sum(input1, input2);
 
-        evenOddChecker(sc);
-        bonus.grader(sc);
-
+        BonusIfElse.evenOddChecker(sc);
+        BonusIfElse.grader(sc);
+        BonusIfElse.highestNumber(sc);
+        BonusIfElse.positiveNegativeZero(sc);
+        BonusIfElse.age(sc);
+        BonusIfElse.textLength(sc);
+        BonusIfElse.leapYearOrNot(sc);
 
     }
 
